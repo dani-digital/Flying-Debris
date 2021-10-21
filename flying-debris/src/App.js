@@ -8,7 +8,7 @@ function App() {
     <div id="body">
       <Header/>
       <Card/>
-      <ContactContainer/>
+      {/* {<ContactContainer/> */} 
     </div>
   );
 }
