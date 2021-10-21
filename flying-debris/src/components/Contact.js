@@ -1,6 +1,6 @@
 import React from 'react';
 
-<function ContactContainer=()=>{
+export default function ContactContainer() {
   return (
     <div className="big-div">
       <span className="div-title">Contact us</span>

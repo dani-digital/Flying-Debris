@@ -2,7 +2,7 @@ import React from 'react';
 import { Card } from 'react'
 
 
-function About(props) {
+export default function About() {
 
   return(
     <div id="body">
@@ -30,4 +30,3 @@ function About(props) {
   );
 }
 
-export default About;
