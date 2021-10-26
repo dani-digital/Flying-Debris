@@ -8,6 +8,7 @@ function App() {
   return(
     <div id="body">
       <Header/>
+     
       <CarouselImages/>
       <Card
       className="section"
