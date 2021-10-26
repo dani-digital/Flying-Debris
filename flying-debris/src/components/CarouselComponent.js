@@ -9,13 +9,13 @@ export default function CarouselImages() {
       <Carousel infiniteLoop useKeyboardArrows autoPlay stopOnHover>
 
         <div>
-          <img src="../straightjacket2.jpg" alt="description here"/>
+          <img src="../AltusOK.jpg" alt="Altus , OK 7/22  "/>
         </div>
         <div>
-          <img src="../juggling.jpg" alt="description here"/>
+          <img src="../HollisOK.jpg" alt="Hollis , OK 7/22"/>
         </div>
         <div>
-          <img src="../straightjacket.jpg" alt="description here"/>
+          <img src="../BurtCountyOaklandNE.jpg" alt="Burt County Fair in Oakland, NE 7/18"/>
         </div>
         <div>
           <img src="../closeuphead.jpg" alt="description here"/>
@@ -34,8 +34,8 @@ export default function CarouselImages() {
 
 
 
-// export default function CarouselImages() {
-//   
+//  export default function CarouselImages() {
+   
 
 //     const captionStyle = {
 //       fontSize: '2em',
@@ -62,5 +62,3 @@ export default function CarouselImages() {
 //       </div>
 //     );
 //   }
-
-
