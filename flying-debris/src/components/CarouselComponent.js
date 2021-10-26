@@ -1,8 +1,8 @@
 import { Carousel } from 'react-carousel-minimal';
 
 export default function CarouselImages() {
-  const data = [
-      {
+  const data = [    
+    {
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/GoldenGateBridge-001.jpg/1200px-GoldenGateBridge-001.jpg",
         caption: "Joe is a dork"
       },

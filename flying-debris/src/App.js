@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import CarouselImages from './components/CarouselComponent';
 import  About  from './components/AboutComponent';
+//import logo from './assets/Flyinglogo.jpg';
 
 function App() {
   return(
@@ -16,9 +17,7 @@ function App() {
       />
       <Card
       className='section bg-grey'
-      //img="./Customawning2.jpg"
-      title=" Why do we use it?"
-      description=" to conserve and protect your home from overbearing sunrays."
+      
       />
       <Card
       //className="section"
@@ -28,7 +27,7 @@ function App() {
       />
     
 
-    
+
       <About/>
     </div>
   );
@@ -37,13 +36,7 @@ function App() {
 const Header=()=>{
   return (
     <div className='header'>
-      <span className='header-title'>
-            Flying Debris!
-      </span>
-        <br/>
-        <span className="header-text">
-            Just flippin' funny!
-        </span>
+      {/* <img src={logo} alt = "logo"/>; */}
     </div>
   );
 }
