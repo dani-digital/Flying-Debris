@@ -2,13 +2,14 @@ import React from 'react';
 import './style.css';
 import CarouselImages from './components/CarouselComponent';
 import  About  from './components/AboutComponent';
+import Sidebar from './components/Sidebar';
 //import logo from './assets/Flyinglogo.jpg';
 
 function App() {
   return(
     <div id="body">
       <Header/>
-     
+      <Sidebar/>
       <CarouselImages/>
       <Card
       className="section"
@@ -41,6 +42,15 @@ const Header=()=>{
     </div>
   );
 }
+
+const Sidebar=()=>{
+  return (
+    <div className='header'>
+      {/* <img src={logo} alt = "logo"/>; */}
+    </div>
+  );
+}
+
 
 
 const Card = (props) =>{
