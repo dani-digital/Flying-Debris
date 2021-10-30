@@ -13,7 +13,6 @@ function App() {
       <CarouselImages/>
       <Card
       className="section"
-      //img="./Customawnings.png"
       title=" Flying Debris Show"
       description="The Flying Debris Show featuring Richard Holmgren is a comedy variety show filled zany stunts, fun tricks, audience participation, and always includes an inspirational message. Richard will work with you one on one to ensure your event is the best it can be!"
       />
@@ -43,13 +42,6 @@ const Header=()=>{
   );
 }
 
-const Sidebar=()=>{
-  return (
-    <div className='header'>
-      {/* <img src={logo} alt = "logo"/>; */}
-    </div>
-  );
-}
 
 
 
